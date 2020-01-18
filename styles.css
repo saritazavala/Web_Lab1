@@ -1,0 +1,107 @@
+html, body{
+    background-color: #f1f6f6;
+    font-size: 10px;
+    font-family: sans-serif;
+}
+
+header{
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.04);
+    background-color: #ffffff;
+}
+
+nav{
+    height: fit-content;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+li a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.home__container{
+    float: left;
+    margin-left: 8rem;
+}
+
+.home{
+    color: #00a09b;
+    font-family: sans-serif;
+    font-size: 6rem;
+    font-weight: 600;
+    line-height: 6rem;
+    padding-top: 8rem;
+}
+
+.text__container{
+    float: left;
+    margin-left: 8rem;
+}
+
+.text{
+    color: #bdbdbd;
+    font-family: "sans-serif";
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 0.34rem;
+}
+
+.pass__container{
+    float: right;
+    margin-right: 12rem;
+    margin-top: 4rem;
+    border-right: #E8E3E2;
+    border-right-style: inset;
+    border-right-width: thin;
+    border-left: #E8E3E2;
+    border-left-style: outset;
+    border-left-width: thin;
+}
+
+.passwords{
+    color: #00c4c0;
+    font-family: sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4rem;
+    text-transform: uppercase;
+    margin-top: 8rem ;
+    padding-left: 1rem;
+    padding-right: 8rem;
+
+    position: relative;
+    bottom: 4rem;
+}
+
+.name__container{
+    float: right;
+    margin-right: 8rem;
+    margin-top: 8rem;
+}
+
+.name{
+    color: #00a09b;
+    font-family: "sans-serif";
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4rem;
+    padding-right: 1rem;
+}
+
+
+
+
+
+
+
+
+
