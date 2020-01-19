@@ -22,12 +22,12 @@ li a {
     text-decoration: none;
 }
 
-.home__container{
+.Colegio__1{
     float: left;
     margin-left: 8rem;
 }
 
-.home{
+.colegio{
     color: #00a09b;
     font-family: sans-serif;
     font-size: 6rem;
@@ -36,12 +36,12 @@ li a {
     padding-top: 8rem;
 }
 
-.text__container{
+.Libros__Electronicos{
     float: left;
     margin-left: 8rem;
 }
 
-.text{
+.LB{
     color: #bdbdbd;
     font-family: "sans-serif";
     font-size: 4rem;
@@ -49,7 +49,7 @@ li a {
     letter-spacing: 0.34rem;
 }
 
-.pass__container{
+.Contras__pag{
     float: right;
     margin-right: 12rem;
     margin-top: 4rem;
@@ -61,7 +61,7 @@ li a {
     border-left-width: thin;
 }
 
-.passwords{
+.contras{
     color: #00c4c0;
     font-family: sans-serif;
     font-size: 4rem;
@@ -76,13 +76,13 @@ li a {
     bottom: 4rem;
 }
 
-.name__container{
+.Nommbre__John{
     float: right;
     margin-right: 8rem;
     margin-top: 8rem;
 }
 
-.name{
+.John{
     color: #00a09b;
     font-family: "sans-serif";
     font-size: 4rem;
@@ -103,9 +103,16 @@ li a {
 
 .Grados a{
     display: block;
-    font-size: 15px;
+    font-size: 13px;
     text-align: left;
-    line-height: 35px;
-    margin-top: 15px;
-
+    line-height: 0.5px;
+    margin-top: 55px;
 }
+
+.Grados b{
+    font-size: 15px;
+    color: #E8E3E2;
+    float: left;
+    margin-top: 15px;
+}
+
