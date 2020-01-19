@@ -103,4 +103,9 @@ li a {
 
 .Grados a{
     display: block;
+    font-size: 15px;
+    text-align: left;
+    line-height: 35px;
+    margin-top: 15px;
+
 }
