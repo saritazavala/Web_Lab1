@@ -1,38 +1,135 @@
-html,body{
-    margin: 0;
-    padding: 0;
+html, body{
     background-color: #f1f6f6;
-    font-size: 24px;
-    font-family: sans-serif;;
-}
-nav {
-    background-color: #ffffff;
-    margin: 0;
-    overflow: hidden;
-}
-header{
-    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.04);
-}
-nav ul{
-    margin: 0;
-    padding: 0;
-}
-nav ul li {
-    display: inline-block;
-    list-style-type: none;
+    font-size: 4px;
+    font-family: sans-serif;
+
 }
 
-nav > ul > li > a {
-    display: block;
-    line-height: 2em;
-    padding: 0.5em 0.5em;
+header{
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.04);
+    background-color: #ffffff;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a {
+    display: inline-block;
+    text-align: center;
     text-decoration: none;
 }
 
+.home__container{
+    float: left;
+    margin-left: 8rem;
+}
 
+.home{
+    color: #00a09b;
+    font-family: sans-serif;
+    font-size: 6rem;
+    font-weight: 600;
+    line-height: 6rem;
+    padding-top: 8rem;
+}
 
+.text__container{
+    float: left;
+    margin-left: 8rem;
+}
 
+.text{
+    color: #bdbdbd;
+    font-family: "sans-serif";
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 0.34rem;
+}
 
+.pass__container{
+    float: right;
+    margin-right: 12rem;
+    margin-top: 4rem;
+    border-right: #E8E3E2;
+    border-right-style: inset;
+    border-right-width: thin;
+    border-left: #E8E3E2;
+    border-left-style: outset;
+    border-left-width: thin;
+}
 
+.passwords{
+    color: #00c4c0;
+    font-family: sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4rem;
+    text-transform: uppercase;
+    margin-top: 8rem ;
+    padding-left: 1rem;
+    padding-right: 8rem;
 
+    position: relative;
+    bottom: 4rem;
+}
+
+.name__container{
+    float: right;
+    margin-right: 8rem;
+    margin-top: 8rem;
+}
+
+.name{
+    color: #00a09b;
+    font-family: "sans-serif";
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4rem;
+    padding-right: 1rem;
+}
+.grados{
+    background-color: red;
+}
+
+.gradoesp{
+    font-family: sans-serif;
+    font-size: 4rem;
+    padding-left: 5rem;
+
+}
+.sidebar {
+    background-color: aqua;
+    top: 50%;
+    bottom: 50%;
+    position: center;
+    z-index: 1;
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+/* Style sidebar links */
+.sidebar a {
+    padding: 2px 2px 2px 2px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+}
+
+/* Style links on mouse-over */
+.sidebar a:hover {
+    color: red;
+}
+
+/* Style the main content */
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+}
 
