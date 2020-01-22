@@ -109,7 +109,6 @@ h2{
     height: 370px;
     margin-left: 50px;
     margin-top: 50px;
-    box-shadow: 5px 10px #888888;
     padding-bottom: 80px;
 
 }
@@ -118,6 +117,8 @@ h2{
     width: 190px;
     height: 270px;
     padding-bottom: 80px;
+    border-bottom: 0.5rem solid gainsboro;
+
 }
 
 .grados__text ul li{
@@ -126,7 +127,7 @@ h2{
     font-size: medium;
     padding-top: 25px;
     padding-left: 10px;
-    text-decoration: underline;
+
 }
 
 
@@ -141,7 +142,6 @@ h2{
 }
 .cajita{
     padding-top: 2rem;
-    border-top: red;
     padding-bottom: 50rem;
 }
 
@@ -164,6 +164,44 @@ h2{
 
 }
 
+.both__buttons{
+
+    border-bottom: 1px solid gainsboro;
+    margin-left: 85rem;
+    margin-top: -110rem;
+    width: 235rem;
+    height: 20rem;
+}
+
+.right__buttons{
+    display: inline-block;
+    width: 100rem;
+    height: 19rem;
+    float: right;
+    margin-right: 10rem;
+    padding-left: 25rem;
+    padding-top: 1rem;
+}
+
+.green__button{
+    background-color: #4CAF50;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 14px 40px;
+    border-radius: 12px;
+    float: right;
+}
+
+.blue__button{
+    background-color: #008CBA;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 14px 40px;
+    border-radius: 12px;
+    float: left;
+}
 
 
 
