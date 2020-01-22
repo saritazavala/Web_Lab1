@@ -1,7 +1,6 @@
 html, body{
     background-color: #f1f6f6;
     font-size: 4px;
-    font-family: sans-serif;
 }
 
 header{
@@ -91,73 +90,56 @@ li a {
     padding-right: 1rem;
 }
 
-.Grados{
-    display: block;
-    background-color: white;
-    box-shadow: 5px 10px #888888;
-    height: 350px;
-    margin: 40px;
-    padding: 10px;
-    float: left;
-}
+/* Nav Bar*/
 
-.Grados a{
-    display: block;
-    font-size: 13px;
-    text-align: left;
-    line-height: 0.5px;
-    margin-top: 55px;
-}
-
-.Grados b{
-    font-size: 15px;
+/*BODY*/
+h2{
+    padding-bottom: -30px;
+    font-family: sans-serif;
     color: #E8E3E2;
-    float: left;
-    margin-top: 15px;
+    font-size: small;
+    padding-left: 20px;
+    padding-top: 35px;
 }
 
-.boton__case{
-    float: right;
-    margin-right: 110px;
-    margin-top: -390px;
+
+.Grados{
+    background-color: white;
+    width: 190px;
+    height: 370px;
+    margin-left: 50px;
+    margin-top: 50px;
+    box-shadow: 5px 10px #888888;
+    padding-bottom: 80px;
 
 }
-.boton_personalizado{
-    margin-right: 25px;
-    text-decoration: none;
-    padding: 15px;
-    padding-left: 25px;
-    padding-right: 25px;
-    font-family: helvetica;
-    font-weight: 300;
-    font-size: 15px;
-    font-style: italic;
-    color: white;
-    background-color: deepskyblue;
-    border-radius: 15px;
-    border: 3px double dodgerblue;
-}
-.boton_personalizado:hover{
-    color: #1883ba;
-    background-color: #ffffff;
+
+.grados__text{
+    width: 190px;
+    height: 270px;
+    padding-bottom: 80px;
 }
 
-.boton_2{
-    text-decoration: none;
-    padding: 15px;
-    padding-left: 25px;
-    padding-right: 25px;
-    font-family: helvetica;
-    font-weight: 300;
-    font-size: 15px;
-    font-style: italic;
-    color: white;
-    background-color: forestgreen;
-    border-radius: 15px;
-    border: 3px double #006505;
+.grados__text ul li{
+    display: block;
+    font-family: sans-serif;
+    font-size: medium;
+    padding-top: 25px;
+    padding-left: 10px;
+    text-decoration: underline;
+}
 
+.
+
+.agregar__text{
+    background-color: red;
+    height: 100px;
+    width: 190px;
 }
-.boton_2:hover{
-    color: #1883ba;
-    background-color: #ffffff;
+
+.agregar__text ul li{
+    background-color: red;
+    width: 190px;
+    height: 100px;
 }
+
