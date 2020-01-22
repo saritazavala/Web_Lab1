@@ -217,7 +217,20 @@ h1{
     color: #00a09b;
     font-family: sans-serif;
     font-size: 8rem;
+}
 
+.languages{
+    background-color: red;
+    border-bottom: 0.5rem solid gainsboro;
+    width: 235rem;
+    height: 10rem;
+    margin-left: 85rem;
+}
+
+.select__languages{
+    font-size: medium;
+    display: inline-block;
+    padding: 10rem;
 }
 
 
