@@ -165,7 +165,6 @@ h2{
 }
 
 .both__buttons{
-
     border-bottom: 1px solid gainsboro;
     margin-left: 85rem;
     margin-top: -110rem;
@@ -203,6 +202,23 @@ h2{
     float: left;
 }
 
+.Primero__Label{
+    width: 60rem;
+    height: 15rem;
+}
+.primero__Text{
+    height: inherit;
+    width: inherit;
+    padding-left: 8rem;
+    padding-top: 1rem;
+
+}
+h1{
+    color: #00a09b;
+    font-family: sans-serif;
+    font-size: 8rem;
+
+}
 
 
 
