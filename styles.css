@@ -105,7 +105,7 @@ h2{
 
 .Grados{
     background-color: white;
-    width: 190px;
+    width: 240px;
     height: 370px;
     margin-left: 50px;
     margin-top: 50px;
@@ -129,17 +129,43 @@ h2{
     text-decoration: underline;
 }
 
-.
 
 .agregar__text{
-    background-color: red;
+    font-family: sans-serif;
+    font-size: small;
+    padding-left: 15px;
     height: 100px;
-    width: 190px;
+    width: 230px;
+
+
+}
+.cajita{
+    padding-top: 2rem;
+    border-top: red;
+    padding-bottom: 50rem;
 }
 
-.agregar__text ul li{
-    background-color: red;
-    width: 190px;
-    height: 100px;
+.agregar__bptpm{
+    background-color: #008CBA;
+    font-size: 24px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 860rem;
+    padding: 5px 12px;
+
 }
+.input__box_{
+    border-radius: 150rem;
+    text-align: center;
+    background-color: #E8E3E2;
+
+}
+
+
+
+
+
 
