@@ -220,7 +220,7 @@ h1{
 }
 
 .languages{
-    background-color: red;
+
     border-bottom: 0.5rem solid gainsboro;
     width: 235rem;
     height: 10rem;
@@ -228,11 +228,36 @@ h1{
 }
 
 .select__languages{
+    width: 75rem;
+    height: 10rem;
     font-size: medium;
-    display: inline-block;
-    padding: 10rem;
+    padding-top: -40rem;
+}
+
+.select__languages li{
+    float: left;
+}
+
+.select__languages ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 
+.select__languages .esp{
+    display: block;
+    color:  #00a09b;;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
 
-
+.select__languages .eng{
+    display: block;
+    color:  lightgrey;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
