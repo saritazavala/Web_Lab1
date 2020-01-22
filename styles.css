@@ -231,7 +231,6 @@ h1{
     width: 75rem;
     height: 10rem;
     font-size: medium;
-    padding-top: -40rem;
 }
 
 .select__languages li{
@@ -256,8 +255,51 @@ h1{
 
 .select__languages .eng{
     display: block;
-    color:  lightgrey;
+    color:  gray;
     text-align: center;
     padding: 16px;
     text-decoration: none;
+}
+
+/*---------------------------------BOOK STUFF------------------------------------------------------------*/
+.book {
+    border-radius: 2rem;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    width: 226px;
+    margin-left: 90rem;
+    margin-top: 10rem;
+}
+
+.book__image {
+    background-position: center;;
+    background-size: cover;
+    height: 70rem
+}
+
+.book__footer {
+    background: white;
+    padding: 16px;
+    position: relative;
+}
+
+.book__title {
+    color: #019c97;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.book__size {
+    color: #777777;
+    font-size: 3rem;
+}
+
+.book__actions {
+    bottom: 0;
+    height: 14rem;
+    position: absolute;
+    right: 0;
+    width: 12rem;
 }
