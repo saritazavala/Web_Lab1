@@ -263,6 +263,7 @@ h1{
 
 /*---------------------------------BOOK STUFF------------------------------------------------------------*/
 .book {
+
     border-radius: 2rem;
     box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
     display: block;
@@ -271,7 +272,45 @@ h1{
     width: 226px;
     margin-left: 90rem;
     margin-top: 10rem;
+    position: absolute;
 }
+
+.book2 {
+    border-radius: 2rem;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    width: 226px;
+    margin-left: 150rem;
+    margin-top: 10rem;
+    position: absolute;
+}
+
+.book3 {
+    border-radius: 2rem;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    width: 226px;
+    margin-left: 210rem;
+    margin-top: 10rem;
+    position: absolute;
+}
+
+.book4 {
+    border-radius: 2rem;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
+    display: block;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    width: 226px;
+    margin-left: 270rem;
+    margin-top: 10rem;
+    position: absolute;
+}
+
 
 .book__image {
     background-position: center;;
