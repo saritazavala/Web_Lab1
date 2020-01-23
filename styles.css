@@ -26,6 +26,12 @@ li a {
     margin-left: 8rem;
 }
 
+.Libros__Electronicos{
+    float: left;
+    margin-left: 8rem;
+}
+
+
 .colegio{
     color: #00a09b;
     font-family: sans-serif;
@@ -33,19 +39,6 @@ li a {
     font-weight: 600;
     line-height: 6rem;
     padding-top: 8rem;
-}
-
-.Libros__Electronicos{
-    float: left;
-    margin-left: 8rem;
-}
-
-.LB{
-    color: #bdbdbd;
-    font-family: "sans-serif";
-    font-size: 4rem;
-    font-weight: 400;
-    letter-spacing: 0.34rem;
 }
 
 .Contras__pag{
@@ -60,15 +53,23 @@ li a {
     border-left-width: thin;
 }
 
+.LB{
+    color: #bdbdbd;
+    font-family: "sans-serif";
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 0.50rem;
+}
+
 .contras{
     color: #00c4c0;
     font-family: sans-serif;
     font-size: 4rem;
-    font-weight: 700;
+    font-weight: bold;
     line-height: 4rem;
     text-transform: uppercase;
-    margin-top: 8rem ;
-    padding-left: 1rem;
+    margin-top: 10rem ;
+    padding-left: 2rem;
     padding-right: 8rem;
 
     position: relative;
