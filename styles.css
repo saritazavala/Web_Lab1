@@ -39,8 +39,8 @@ li a {
     font-family: sans-serif;
     font-size: 5rem;
     font-weight: bold;
-    line-height: 5rem;
-    padding-top: 7rem;
+    line-height: 6rem;
+    padding-top: 8rem;
     text-decoration: none;
 }
 
@@ -48,10 +48,10 @@ li a {
     float: right;
     margin-right: 12rem;
     margin-top: 4rem;
-    border-right: #E8E3E3;
+    border-right: #E8E3E4;
     border-right-style: inset;
     border-right-width: thin;
-    border-left: #E8E3E3;
+    border-left: #E8E3E4;
     border-left-style: outset;
     border-left-width: thin;
     text-decoration: none;
@@ -61,7 +61,7 @@ li a {
     color: #bdbdbd;
     font-family: "sans-serif";
     font-size: 4rem;
-    font-weight: 400;
+    font-weight: bold;
     letter-spacing: 0.50rem;
 }
 
