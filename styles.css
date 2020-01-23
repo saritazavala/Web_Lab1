@@ -342,3 +342,17 @@ h1{
     right: 0;
     width: 12rem;
 }
+
+.pencil{
+    height:8rem;
+    width:8rem;
+    margin-left: 70rem;
+    margin-top: -25rem;
+}
+
+.trash1{
+    height:8rem;
+    width:8rem;
+    margin-left: 80rem;
+    margin-top: -50rem;
+}
