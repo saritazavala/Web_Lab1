@@ -23,13 +23,13 @@ li a {
 
 .Colegio__1{
     float: left;
-    margin-left: 8rem;
+    margin-left: 7rem;
     text-decoration: none;
 }
 
 .Libros__Electronicos{
     float: left;
-    margin-left: 8rem;
+    margin-left: 7rem;
     text-decoration: none;
 }
 
@@ -37,10 +37,10 @@ li a {
 .colegio{
     color: #00a09b;
     font-family: sans-serif;
-    font-size: 6rem;
-    font-weight: 600;
-    line-height: 6rem;
-    padding-top: 8rem;
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 5rem;
+    padding-top: 7rem;
     text-decoration: none;
 }
 
